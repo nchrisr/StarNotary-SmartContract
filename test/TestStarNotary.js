@@ -120,9 +120,9 @@ it('lets 2 users exchange stars', async() => {
 });
 
 it('lets a user transfer a star', async() => {
-    // 1. create a Star with different tokenId
-    // 2. use the transferStar function implemented in the Smart Contract
-    // 3. Verify the star owner changed.
+    // create a Star with a different tokenId
+    // Use the transferStar function implemented in the Smart Contract
+    // Verify the star owner changed.
 
     const instance = await StarNotary.deployed();
     let user1 = accounts[0];
@@ -139,9 +139,9 @@ it('lets a user transfer a star', async() => {
 });
 
 it('lookUptokenIdToStarInfo test', async() => {
-    // 1. create a Star with different tokenId
-    // 2. Call your method lookUptokenIdToStarInfo
-    // 3. Verify if you Star name is the same
+    // Create a Star with different tokenId
+    // Call the method lookUptokenIdToStarInfo
+    // Verify if you Star name is the same
 
     const instance = await StarNotary.deployed();
     let user1 = accounts[0];
