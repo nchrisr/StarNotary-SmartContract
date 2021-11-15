@@ -1,5 +1,5 @@
 # **PROJECT: Decentralized Star Notary Service Project** 
-A decenteralized smart contract DAapp that provides a web front-end to create and lookup stars. It is an implementation of an ERC-721 non-fungible token
+A DAapp that provides a web front-end to create and lookup stars. It is an implementation of an ERC-721 non-fungible token.
 
 ### **Contract Address:**
 https://rinkeby.etherscan.io/address/0x511D5342BbbfbbB61Fa393f0cDe74F31ac082845 
